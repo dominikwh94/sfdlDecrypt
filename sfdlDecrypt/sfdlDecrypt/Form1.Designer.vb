@@ -227,6 +227,10 @@ Partial Class Form1
         Me.Controls.Add(Me.lblHost)
         Me.Controls.Add(Me.txtFilePath)
         Me.Controls.Add(Me.btnLoadFile)
+        Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(531, 434)
+        Me.MinimizeBox = False
+        Me.MinimumSize = New System.Drawing.Size(531, 434)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
